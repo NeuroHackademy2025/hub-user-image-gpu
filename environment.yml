@@ -72,6 +72,5 @@ dependencies:
     - requests
     - platformdirs
     - git+https://github.com/rmarkello/abagen.git@dc4a007
-    - afqinsight
     - ieegprep
     - jupyter-keepalive
