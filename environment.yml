@@ -39,7 +39,6 @@ dependencies:
   - openneuro-py
   - ipyvolume
   - nodejs
-  - pymvpa
   - s5cmd
   - imbalanced-learn
   - tensorflow
