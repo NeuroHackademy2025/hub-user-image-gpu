@@ -19,7 +19,7 @@ dependencies:
   - tqdm
   - s3fs
   - awscli
-  - scikit-learn>=1.15
+  - scikit-learn>=1.5
   - datalad
   - datalad-container
   - singularity
