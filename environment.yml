@@ -42,9 +42,9 @@ dependencies:
   - imbalanced-learn
   - tensorflow
   - nitime
-  - statsmodels
   - openneuro-py
   - pip:
+    - statsmodels
     - best-toolbox
     - nbgitpuller
     - pymef
