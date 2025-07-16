@@ -70,7 +70,7 @@ dependencies:
     - colorspacious
     - requests
     - platformdirs
-    - git+https://github.com/rmarkello/abagen.git@dc4a007
+    - git+https://github.com/rmarkello/abagen.git@main
     - ieegprep
     - jupyter-keepalive
-    - git+https://github.com/NeuroHackademy2025/rbc-projects-template@64c9332
+    - git+https://github.com/NeuroHackademy2025/rbc-projects-template@main
