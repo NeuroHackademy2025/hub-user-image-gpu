@@ -6,9 +6,9 @@ channels:
 dependencies:
   - jupyter_contrib_nbextensions
   - jupyterhub-singleuser
-  # Set default python version to 3.12 - repo2docker sets it to 3.7 instead by default,
+  # Set default python version to 3.11 - repo2docker sets it to 3.7 instead by default,
   # which can limit us to older package versions
-  - python=3.12
+  - python=3.11
   # Everyone wants to use nbgitpuller for everything, so let's do that
   - nbgitpuller=1.1.*
   # Add other packages here:
@@ -19,7 +19,7 @@ dependencies:
   - tqdm
   - s3fs
   - awscli
-  - scikit-learn
+  - scikit-learn>=1.15
   - datalad
   - datalad-container
   - singularity
@@ -44,8 +44,8 @@ dependencies:
   - nitime
   - openneuro-py
   - pip
+  - statsmodels
   - pip:
-    - statsmodels
     - best-toolbox
     - nbgitpuller
     - pymef
