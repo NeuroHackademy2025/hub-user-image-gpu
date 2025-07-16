@@ -73,3 +73,4 @@ dependencies:
     - git+https://github.com/rmarkello/abagen.git@dc4a007
     - ieegprep
     - jupyter-keepalive
+    - git+https://github.com/NeuroHackademy2025/rbc-projects-template@64c9332
