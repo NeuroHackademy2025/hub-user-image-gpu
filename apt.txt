@@ -6,3 +6,4 @@ default-jre
 ffmpeg
 libboost-python-dev
 libboost-numpy-dev
+nvidia-cuda-toolkit
