@@ -44,8 +44,9 @@ dependencies:
   - nitime
   - openneuro-py
   - pip
-  - statsmodels
   - pip:
+    - classy>=3.2.5
+    - statsmodels
     - best-toolbox
     - pymef
     - pybids
