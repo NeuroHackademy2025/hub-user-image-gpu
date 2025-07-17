@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - jupyter_contrib_nbextensions
+  #- jupyter_contrib_nbextensions # jupyter-lab doesn't use this any more
   - jupyterhub-singleuser
   # Set default python version to 3.11 - repo2docker sets it to 3.7 instead by default,
   # which can limit us to older package versions
@@ -12,14 +12,14 @@ dependencies:
   # Everyone wants to use nbgitpuller for everything, so let's do that
   - nbgitpuller=1.1.*
   # Add other packages here:
-  - numpy>=2.2.6
+  - numpy
   - matplotlib
   - scipy
   - pandas
   - tqdm
   - s3fs
   - awscli
-  - scikit-learn>=1.5
+  - scikit-learn
   - datalad
   - datalad-container
   - singularity
@@ -47,7 +47,6 @@ dependencies:
   - statsmodels
   - pip:
     - best-toolbox
-    - nbgitpuller
     - pymef
     - pybids
     - nipype
