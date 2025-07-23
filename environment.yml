@@ -65,4 +65,4 @@ dependencies:
     - requests
     - platformdirs
     - jupyter-keepalive
-    - git+https://github.com/NeuroHackademy2025/rbc-projects-template@main
+    - git+https://github.com/NeuroHackademy2025/rbclib@main
