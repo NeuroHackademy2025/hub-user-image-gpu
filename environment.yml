@@ -31,9 +31,7 @@ dependencies:
   - jax
   - numba
   - cython
-  - pytorch==2.3.1
-  - pytorch-cuda
-  - cudatoolkit
+  - cudatoolkit==12.4
   - torchvision==0.18
   - dcm2niix
   - openneuro-py
@@ -46,6 +44,7 @@ dependencies:
   - openneuro-py
   - pip
   - pip:
+    - torch
     - pybids
     - nipype
     - neuropythy>=0.12.16
