@@ -31,7 +31,7 @@ dependencies:
   - jax
   - numba
   - cython
-  - cudatoolkit==12.4
+  - cudatoolkit
   - torchvision==0.18
   - dcm2niix
   - openneuro-py
