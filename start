@@ -1,8 +1,0 @@
-#! /bin/bash
-
-# Make a link from the shared documents directory to the user home directory.
-if ! [ -a "${HOME}/docs" ]
-then ln -s "${HOME}/shared/docs" "${HOME}/docs"
-fi
-
-
