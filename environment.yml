@@ -33,7 +33,7 @@ dependencies:
   - cython
   - pytorch==2.3.1
   - pytorch-cuda
-  - cudatoolkit=12.4
+  - cudatoolkit
   - torchvision==0.18
   - dcm2niix
   - openneuro-py
