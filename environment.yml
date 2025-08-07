@@ -32,6 +32,7 @@ dependencies:
   - numba
   - cython
   - pytorch==2.3.1
+  - pytorch-cuda
   - cudatoolkit=11.7
   - torchvision==0.18
   - dcm2niix
